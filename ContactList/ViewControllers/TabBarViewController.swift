@@ -34,9 +34,9 @@ class TabBarViewController: UITabBarController {
         
         for child in children {
             guard let navigationVC = child as? UINavigationController else { return }
-            if let contactListVC = navigationVC.topViewController as? ContactListViewController {
+            if let contactListVC = navigationVC.topViewController as? ContactTableViewController {
                 contactListVC.persons = persons
-            } else if let detailListVC = navigationVC.topViewController as? ContactDetailViewController {
+            } else if let detailListVC = navigationVC.topViewController as? DetailTableViewController {
                 detailListVC.persons = persons
             }
         }
