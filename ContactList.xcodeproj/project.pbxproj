@@ -15,8 +15,9 @@
 		25D60F3727EB4AF000B5530A /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3627EB4AF000B5530A /* Person.swift */; };
 		25D60F3A27EB4B2A00B5530A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3927EB4B2A00B5530A /* DataManager.swift */; };
 		25D60F3C27EB4CDD00B5530A /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3B27EB4CDD00B5530A /* TabBarViewController.swift */; };
-		25D60F3E27EB4F4300B5530A /* ContactListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3D27EB4F4300B5530A /* ContactListViewController.swift */; };
-		25D60F4027EB509F00B5530A /* ContactDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3F27EB509F00B5530A /* ContactDetailViewController.swift */; };
+		25D60F3E27EB4F4300B5530A /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3D27EB4F4300B5530A /* ContactTableViewController.swift */; };
+		25D60F4027EB509F00B5530A /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F3F27EB509F00B5530A /* DetailTableViewController.swift */; };
+		25D60F4227EB61F300B5530A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25D60F4127EB61F300B5530A /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		25D60F3627EB4AF000B5530A /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		25D60F3927EB4B2A00B5530A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		25D60F3B27EB4CDD00B5530A /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
-		25D60F3D27EB4F4300B5530A /* ContactListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactListViewController.swift; sourceTree = "<group>"; };
-		25D60F3F27EB509F00B5530A /* ContactDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailViewController.swift; sourceTree = "<group>"; };
+		25D60F3D27EB4F4300B5530A /* ContactTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		25D60F3F27EB509F00B5530A /* DetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
+		25D60F4127EB61F300B5530A /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,8 +107,9 @@
 			isa = PBXGroup;
 			children = (
 				25D60F3B27EB4CDD00B5530A /* TabBarViewController.swift */,
-				25D60F3D27EB4F4300B5530A /* ContactListViewController.swift */,
-				25D60F3F27EB509F00B5530A /* ContactDetailViewController.swift */,
+				25D60F3D27EB4F4300B5530A /* ContactTableViewController.swift */,
+				25D60F4127EB61F300B5530A /* DetailViewController.swift */,
+				25D60F3F27EB509F00B5530A /* DetailTableViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -201,10 +204,11 @@
 				25D60F3727EB4AF000B5530A /* Person.swift in Sources */,
 				25D60F3A27EB4B2A00B5530A /* DataManager.swift in Sources */,
 				25D60F1E27EB436C00B5530A /* AppDelegate.swift in Sources */,
-				25D60F4027EB509F00B5530A /* ContactDetailViewController.swift in Sources */,
+				25D60F4027EB509F00B5530A /* DetailTableViewController.swift in Sources */,
 				25D60F3C27EB4CDD00B5530A /* TabBarViewController.swift in Sources */,
 				25D60F2027EB436C00B5530A /* SceneDelegate.swift in Sources */,
-				25D60F3E27EB4F4300B5530A /* ContactListViewController.swift in Sources */,
+				25D60F3E27EB4F4300B5530A /* ContactTableViewController.swift in Sources */,
+				25D60F4227EB61F300B5530A /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
