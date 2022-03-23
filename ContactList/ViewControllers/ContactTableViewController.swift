@@ -1,5 +1,5 @@
 //
-//  ContactListViewController.swift
+//  ContactTableViewController.swift
 //  ContactList
 //
 //  Created by EkaterinaP on 23.03.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactListViewController: UITableViewController {
+class ContactTableViewController: UITableViewController {
     
     //MARK: - Public properties
     var persons: [Person]!
@@ -32,5 +32,16 @@ class ContactListViewController: UITableViewController {
         cell.contentConfiguration = content
         
         return cell
+    }
+    
+    // MARK: - Navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        guard let detailVC = segue.destination as? DetailViewController else { return }
+        detailVC.person = sender as? Person
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let person = persons[indexPath.row]
+        performSegue(withIdentifier: "showDetail", sender: person)
     }
 }
