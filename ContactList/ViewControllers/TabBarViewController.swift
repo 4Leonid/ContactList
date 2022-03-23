@@ -20,10 +20,10 @@ class TabBarViewController: UITabBarController {
         
         for _ in 1...data.firstNames.count {
             let person = Person(
-                firstName: data.firstNames.randomElement()!,
-                secondName: data.secondNames.randomElement()!,
-                phone: data.phones.randomElement()!,
-                eMail: data.eMails.randomElement()!
+                firstName: data.firstNames.randomElement() ?? "",
+                secondName: data.secondNames.randomElement() ?? "",
+                phone: data.phones.randomElement() ?? "",
+                eMail: data.eMails.randomElement() ?? ""
             )
             persons.append(person)
             data.firstNames.removeAll { $0 == person.firstName }
