@@ -1,5 +1,5 @@
 //
-//  ContactDetailViewController.swift
+//  DetailTableViewController.swift
 //  ContactList
 //
 //  Created by EkaterinaP on 23.03.2022.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ContactDetailViewController: UITableViewController {
+class DetailTableViewController: UITableViewController {
 
     //MARK: - Public properties
     var persons: [Person]!
@@ -21,8 +21,6 @@ class ContactDetailViewController: UITableViewController {
         persons[section].getFullName
     }
     
-    
-
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
          2
     }
