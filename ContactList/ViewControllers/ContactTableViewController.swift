@@ -12,12 +12,6 @@ class ContactTableViewController: UITableViewController {
     //MARK: - Public properties
     var persons: [Person]!
     
-    //MARK: - Override Methods
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        tableView.rowHeight = 50
-    }
-    
     // MARK: - Table view data source
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return persons.count
